@@ -32,3 +32,10 @@ html, body {
     color: white;
     
 }
+/*---------------MAIN SECTION STYLES----------------*/
+.main-section {
+    padding: 18%;
+    text-align: center;
+    font-size: 2rem;
+    color: dimgray;
+}
