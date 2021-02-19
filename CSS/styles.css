@@ -35,8 +35,67 @@ html, body {
 }
 /*---------------MAIN SECTION STYLES----------------*/
 .main-section {
-    padding: 18%;
     text-align: center;
+    font-size: 3rem;
+    color:#474D45;
+}
+.main-copy {
+    padding: 9%;
+    margin-bottom: 4rem;
+}
+.products {
+    background-size: cover;
+    background-position: center top;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    background-image: url(/images/curve.png);
+}
+.products p {
+    font-size: 1.2rem;
+    color: #898E87;
+}
+.product {
+    padding: 1rem;
+    width: 283px;
+    height: inherit;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2rem;
+    box-shadow: 2px 4px 8px #898E87;
+}
+.titulo-card {
     font-size: 2rem;
-    color: dimgray;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.card {
+    display: flex;
+    height: fit-content;
+    margin: -12rem;
+}
+.content {
+    padding: 1rem;
+    text-align: left;
+}
+.image-content {
+    text-align: center;
+}
+.main-button {
+    color: white;
+    text-decoration: none;
+    background-color:#34E500;
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.main-button:hover {
+    background-color: #29B300;
+    cursor: pointer;
 }
