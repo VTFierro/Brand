@@ -144,28 +144,33 @@ html, body {
     font-size: 1.2rem;
 }
 /*---------------------THIRD SECTION----------------*/
+.mention-title{
+    font-size: 5rem;
+    text-align: center;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 6rem;
+}
 .mentions {
     width: 100%;
-    padding: 10%;
-    height: 70vh;
-    border-top: 1px solid #EEEEEE;
+    padding: 3%;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
     
 }
 .mention-card {
-    width: 20rem;
+    width: 24rem;
     height: fit-content;
-    padding: 1rem;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 2px;
 }
 .mention-card figure {
     height: 10rem;
     width: 100%;
-    background-image: url(/images/mario.png);
-    background-position: center;
     margin-bottom: 0.7rem;
+}
+.mention-card figure img {
+    width: 24rem;
 }
 .mention-card h4 {
     font-size: 2rem;
@@ -176,4 +181,7 @@ html, body {
 .mention-card p {
     color: var(--gray-text);
     font-size: 1.2rem;
+}
+.comment {
+    padding: 1rem;
 }
