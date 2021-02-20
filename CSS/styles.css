@@ -13,7 +13,8 @@ html, body {
     --green-secondary:#29B300;
     --white-color:#FFFFFF;
     --gray-text:#898E87;
-    --black-title:#474D45
+    --black-title:#474D45;
+    --dark-color:#313337;
 }
 
 
@@ -184,4 +185,13 @@ html, body {
 }
 .comment {
     padding: 1rem;
+}
+/*----------------------------FOOTER STYLES--------------------*/
+.footer {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--dark-color);
+    color: white;
+    font-family: arial;
+    font-size: 1.2rem;
 }
