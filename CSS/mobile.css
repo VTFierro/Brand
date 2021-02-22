@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    .main-copy {
+        font-size: 3rem;
+        padding: 5%;
+    }
+    .products {
+        height: 110vh;
+        margin-top: auto;
+    }
+    .card {
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+    .characteristics {
+        display: inherit;
+    }
+    .char-card {
+        width: auto;
+        text-align: center;
+        margin: 4rem 0;
+    }
+    .char-card p {
+        font-size: 2rem;
+    }
+    .mentions {
+        display: inherit;
+        text-align: center;
+        height: auto;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .mention-title {
+        padding: 4rem 0;
+    }
+
+}

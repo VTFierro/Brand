@@ -24,6 +24,7 @@ html, body {
     background-color: var(--green-color);
     padding: 1rem;
     font-size: 1.2rem;
+    font-family: Roboto;
     color: white;
     display: flex;
     justify-content: space-between;
