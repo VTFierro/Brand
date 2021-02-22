@@ -28,6 +28,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 5px 6px #26B7137E;
 }
 .navbar ul {
     display: flex;
