@@ -15,6 +15,7 @@ html, body {
     --gray-text:#898E87;
     --black-title:#474D45;
     --dark-color:#313337;
+    --box:2px 4px 8px #898E87;
 }
 
 
@@ -74,9 +75,35 @@ html, body {
     color: var(--green-color);
 }
 /*-------------MAIN STYLES-----------*/
-.form {
+.purchase {
     height: 87.2vh;
     width: 100%;
     padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 2fr);
+    gap: 2rem;
+    grid-template-areas: "card form";
+}
+.card {
+    grid-area: card;
+    box-shadow: var(--box);
+    padding: 10%;
+    font-size: 2rem;
+    color: var(--gray-text);
+    border-radius: 8px;
+}
+.card h4 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--dark-color);
+}
+.card figure {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.form {
+    grid-area: form;
+    background-color: chocolate;
 }
 
