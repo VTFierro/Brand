@@ -9,8 +9,8 @@ html, body {
 }
 /*---------VARIABLES----------*/
 :root {
-    --green-color:#34E500;
-    --green-secondary:#29B300;
+    --green-color:#7ACC2D;
+    --green-secondary:#55A608;
     --white-color:#FFFFFF;
     --gray-text:#898E87;
     --black-title:#474D45;
@@ -109,6 +109,7 @@ html, body {
     border: none;
     width: 100%;
     margin-top: 1.5rem;
+    outline: none;
 }
 .main-button:hover {
     background-color: var(--green-secondary);
