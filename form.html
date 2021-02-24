@@ -11,7 +11,7 @@
 <!-- Comenzamos con el navbar  -->
     <nav class="navbar">
         <div class="brand-image">
-            <img src="/images/logo.png" alt="Logo BRAND">
+            <a href="/index.html"><img src="/images/logo.png" alt="Logo BRAND"></a>
         </div>
         <div class="brand-image">
             <div class="nav-options">
@@ -32,18 +32,19 @@
             <p>Descripción de la caja para gatitos. Su color, su sabor y las dimensiones que permiten guardar una gran cantidad de gatitos.</p>
         </article>
         <article class="form">
-            <form action="" class="form-form">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8TEMQ3J7D4H4N" method="POST" class="form-form">
                 <label for="name">Nombre</label>
                 <br>
-                <input type="text" id="name">
+                <input type="text" id="name" name="name" class="data" required>
                 <br>
                 <label for="mail">Mail</label>
                 <br>
-                <input type="email" id="mail">
+                <input type="email" id="mail" name="email" class="data" required>
                 <br>
                 <label for="phone">Teléfono</label>
                 <br>
-                <input type="tel" id="phone">
+                <input type="tel" id="phone" name="phone" class="data" required>
+                <input type="submit" class="main-button" name="submit" value="Confirmar pago">
             </form>
         </article>
     </main>
